@@ -1,0 +1,43 @@
+body {
+    background-color: lightseagreen;
+}
+
+h1 {
+    background-color: white;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px black;
+}
+
+p {
+    font-family: myFirstFont;
+    position: relative;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: slateblue;
+}
+  
+.navbar a {
+    float: inline-start;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: seagreen;
+    color: black;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("CloisterBlack.ttf");
+  }
