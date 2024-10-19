@@ -1,0 +1,38 @@
+center {
+    font-size: xx-large;
+    font-family: Groovy;
+}
+
+@font-face {
+    font-family: Groovy;
+    src: url("fonts/hipstravaganza-demo.regular.otf");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(50, 6, 117, 0.714);
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(225, 225, 225);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #944ce0;
+}
+
+.active {
+    background-color: #2600ff;
+  }
