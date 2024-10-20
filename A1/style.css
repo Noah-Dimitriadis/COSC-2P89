@@ -1,6 +1,15 @@
+body {
+    background-color:rgba(50, 6, 117, 0.714);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 center {
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: Groovy;
+    color: black;
 }
 
 @font-face {
@@ -8,31 +17,73 @@ center {
     src: url("fonts/hipstravaganza-demo.regular.otf");
 }
 
-ul {
-    list-style-type: none;
+.header {
+    background-color: rgb(70, 24, 114);
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgba(50, 6, 117, 0.714);
+    position: sticky;
 }
 
-li {
+.header a {
     display: inline;
     float: left;
-}
-
-li a {
     display: block;
-    color: rgb(225, 225, 225);
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px;
     text-decoration: none;
+    color: wheat;
 }
 
-li a:hover{
-    background-color: #944ce0;
+.header a:hover{
+    background-color: #5c99c2;
 }
 
 .active {
     background-color: #2600ff;
-  }
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.record{
+    display: flex;
+    align-items: flex-start;
+    padding:  10px;
+}
+
+.record .square{
+    margin-right: 50px;
+}
+
+.products ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}   
+
+
+ .textBox{
+    border: 2px solid rgb(70, 24, 114);    
+    padding: 10px;             
+    border-radius: 5px;        
+    background-color: #2600ff; 
+    width: auto; 
+    color: wheat  
+ }
