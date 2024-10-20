@@ -29,19 +29,18 @@ center {
     display: inline;
     float: left;
     display: block;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    color: wheat;
 }
 
 .header a:hover{
-    background-color: #5c99c2;
+    background-color: #41abf1;
 }
 
 .active {
-    background-color: #2600ff;
+    background-color: #9489ce; 
 }
 
 footer {
@@ -75,15 +74,13 @@ img {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-
 }   
-
 
  .textBox{
     border: 2px solid rgb(70, 24, 114);    
     padding: 10px;             
-    border-radius: 5px;        
-    background-color: #2600ff; 
+    border-radius: 10px;        
+    background-color: #9489ce; 
     width: auto; 
-    color: wheat  
+    color: black;
  }
