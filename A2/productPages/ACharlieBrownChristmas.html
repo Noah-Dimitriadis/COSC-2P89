@@ -2,12 +2,12 @@
 <html>
     <title>A Charlie Brown Christmas</title>
     <head>
-        <link rel="stylesheet" href="/A2/style.css">
+        <link rel="stylesheet" href="../style.css">
         <center>A Charlie Brown Christmas - Vince Guaraldi</center>
     </head>
-    <body>
+    <body onload=initProductPage(4)>
         <div class="record">
-            <img class="square" src="/A2/images/CharlieBrownChristmas.jpg" alt="">
+            <img class="square" src="../images/CharlieBrownChristmas.jpg" alt="">
             <div class="textBox">
                 <p>Track List</p>
                 <ul>
@@ -26,6 +26,8 @@
                 </ul>
             </div>
         </div>
+        <button value="CharlieBrownChristmas" onclick=addToCart(value) id="CharlieBrownChristmas" type="button">Add to cart</button>
+        <button value="CharlieBrownChristmas" onclick=removeFromCart(value) id="CharlieBrownChristmasInCart" type="button">Remove from cart</button>
     </body>
     <footer>
         <small>
@@ -33,3 +35,4 @@
         </small> 
     </footer>
 </html>
+<script src="../script.js"></script>

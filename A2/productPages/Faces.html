@@ -2,12 +2,12 @@
 <html>
     <title>Faces</title>
     <head>
-        <link rel="stylesheet" href="/A2/style.css">
+        <link rel="stylesheet" href="../style.css">
         <center>Faces - Mac Miller</center>
     </head>
-    <body>
+    <body onload=initProductPage(0)>
         <div class="record">
-            <img class="square" src="/A2/images/Faces.png" alt="">
+            <img class="square" src="../images/Faces.png" alt="">
             <div class="textBox">
                 <p style="font-size:x-large ;">Track List</p>
                 <ul>
@@ -39,6 +39,8 @@
                 </ul>
             </div>
         </div>
+        <button value="Faces" onclick=addToCart(value) id="Faces" type="button">Add to cart</button>
+        <button value="Faces" onclick=removeFromCart(value) id="FacesInCart" type="button">Remove from cart</button>
     </body>
     <footer>
         <small>
@@ -46,3 +48,4 @@
         </small> 
     </footer>
 </html>
+<script src="../script.js"></script>

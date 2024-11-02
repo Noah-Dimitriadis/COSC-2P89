@@ -2,12 +2,12 @@
 <html>
     <title>Watching Movies With the Sound Off</title>
     <head>
-        <link rel="stylesheet" href="/A2/style.css">
+        <link rel="stylesheet" href="../style.css">
         <center>Watching Movies With the Sound Off - Mac Miller</center>
     </head>
-    <body>
+    <body onload=initProductPage(1)>
         <div class="record">
-                <img class="square" src="/A2/images/WMWTSO.png" alt="">
+                <img class="square" src="../images/WMWTSO.png" alt="">
                 <div class="textBox">
                     <p style="font-size:x-large ;">Track List</p>
                     <ul>
@@ -34,6 +34,8 @@
                     </ul>
                 </div>
         </div>
+        <button value="WMWTSO" onclick=addToCart(value) id="WMWTSO" type="button">Add to cart</button>
+        <button value="WMWTSO" onclick=removeFromCart(value) id="WMWTSOInCart" type="button">Remove from cart</button>
     </body>
     <footer>
         <small>
@@ -41,3 +43,4 @@
         </small> 
     </footer>
 </html>
+<script src="../script.js"></script>

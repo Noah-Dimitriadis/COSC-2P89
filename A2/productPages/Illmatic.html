@@ -2,12 +2,12 @@
 <html>
     <title>Illmatic - Nas</title>
     <head>
-        <link rel="stylesheet" href="/A2/style.css">
+        <link rel="stylesheet" href="../style.css">
         <center>Illmatic</center>
     </head>
-    <body>
+    <body onload=initProductPage(2)>
         <div class="record">
-            <img class="square" src="/A2/images/Illmatic.jpg" alt="">
+            <img class="square" src="../images/Illmatic.jpg" alt="">
             <div class="textBox">
                 <p style="font-size:x-large ;">Track List</p>
                 <ul>
@@ -24,6 +24,8 @@
                 </ul>
             </div>
         </div>
+        <button value="Illmatic" onclick=addToCart(value) id="Illmatic" type="button">Add to cart</button>
+        <button value="Illmatic" onclick=removeFromCart(value) id="IllmaticInCart" type="button">Remove from cart</button>
     </body>
     <footer>
         <small>
@@ -31,3 +33,4 @@
         </small> 
     </footer>
 </html>
+<script src="../script.js"></script>

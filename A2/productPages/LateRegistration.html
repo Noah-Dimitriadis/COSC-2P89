@@ -2,12 +2,12 @@
 <html>
     <title>Late Registration</title>
     <head>
-        <link rel="stylesheet" href="/A2/style.css">
+        <link rel="stylesheet" href="../style.css">
         <center>Late Registration - Kanye West</center>
     </head>
-    <body>
+    <body onload=initProductPage(3)>
         <div class="record">
-            <img class="square" src="/A2/images/LateRegistration.png" alt="">
+            <img class="square" src="../images/LateRegistration.png" alt="">
             <div class="textBox">
                 <p>Track List</p>
                 <ul>
@@ -35,6 +35,8 @@
                 </ul>
             </div>
         </div>
+        <button value="LateRegistration" onclick=addToCart(value) id="LateRegistration" type="button">Add to cart</button>
+        <button value="LateRegistration" onclick=removeFromCart(value) id="LateRegistrationInCart" type="button">Remove from cart</button>
     </body>
     <footer>
         <small>
@@ -42,3 +44,4 @@
         </small> 
     </footer>
 </html>
+<script src="../script.js"></script>

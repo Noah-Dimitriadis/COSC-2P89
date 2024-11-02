@@ -5,21 +5,17 @@
         <link rel="stylesheet" href="style.css">
         <center>My Favourite Records!</center>
     </head>
-    <body>
+    <body onload=displayCart()>
         <div class="header">
             <a href="index.html">Home Page</a>
             <a href="productOverview.html">List of my favourite records</a>
             <a href="FAQ.html">FAQ</a>
             <a href="Contact.html">Contact</a>
-            <a class="active" href="wishlist.html">Wishlist</a>
+            <a class="cartHeader active" href="wishlist.html">Wishlist</a>
         </div>
         <div class="textBox">
-            <p>
-                So I need some text I guess. Welcome to the landing page! Woot Woot!! I suppose that I should explain what this website is about. 
-            </p>
-            <p>
-                This is gonna be a little showcase about some records I have in my collection. Feel free to poke around! 
-            </p>
+            <ul id="CartPageUl"></ul>
+            <button onclick=clearCart() id="ClearCart" type="button">Clear cart</button>
         </div>
     </body>
     <footer>
@@ -28,4 +24,4 @@
         </small> 
     </footer>
 </html>
-
+<script src="script.js"></script>
