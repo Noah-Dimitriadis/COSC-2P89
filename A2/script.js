@@ -1,3 +1,6 @@
+//TODO make it so instead of add to cart it says in cart and greys the button out
+//TODO make the list entries on the cart page look nice
+
 function init(){
     console.log("init function ran")
     albums = ["Faces","WMWTSO","Illmatic","LateRegistration","CharlieBrownChristmas"]
@@ -86,7 +89,6 @@ function displayCart(){
         CartPageUl.appendChild(li);
         button = document.createElement("button");
         button.type = "button";
-        button.value = cart[i];
         button.onclick = () => removeFromCartPage(cart[i]);
         button.innerHTML = "Remove from cart";
         li.appendChild(button);
