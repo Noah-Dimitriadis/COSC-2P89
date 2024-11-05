@@ -39,6 +39,10 @@ center {
     background-color: #41abf1;
 }
 
+.header a.cartHeader{
+    float:right
+}
+
 .active {
     background-color: #9489ce; 
 }
@@ -67,7 +71,8 @@ img {
 }
 
 .record .square{
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .products ul {
@@ -83,6 +88,15 @@ img {
     background-color: #9489ce; 
     width: auto; 
     color: black;
+<<<<<<< HEAD:A1/style.css
     margin-right: auto;
     margin-left: auto;
+=======
+ }
+
+ button{
+    font-family: Groovy;
+    background-color: rgb(70, 24, 114);
+    color: white;
+>>>>>>> 8599c9e870b7d353b2626377dbfd835b1c6861b6:A2/style.css
  }

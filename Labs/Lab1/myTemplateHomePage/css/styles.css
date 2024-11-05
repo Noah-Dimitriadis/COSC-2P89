@@ -4706,7 +4706,7 @@ textarea.form-control-lg {
   --bs-alert-border-color: #f5c2c7;
 }
 .alert-danger .alert-link {
-  color: #6a1a21;
+  color: #6A2a21;
 }
 
 .alert-light {
@@ -5137,7 +5137,7 @@ textarea.form-control-lg {
   height: 1em;
   padding: 0.25em 0.25em;
   color: #000;
-  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293A2 1 0 0 1 1.414 0L8 6.586 14.293.293A2 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293A2 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293A2 1 0 0 1-1.414-1.414L6.586 8 .293 1.707A2 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
   border: 0;
   border-radius: 0.375rem;
   opacity: 0.5;
@@ -6747,7 +6747,7 @@ textarea.form-control-lg {
   color: #212529 !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21 !important;
+  color: #1A2e21 !important;
 }
 
 .ratio {
